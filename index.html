@@ -1,0 +1,87 @@
+<div class="bg-glow"></div>
+
+<header class="topbar">
+  <button class="icon-btn" aria-label="Menu">☰</button>
+</header>
+
+<section class="hero">
+  <div class="logo-wrap">
+    <div class="ring ring-outer"></div>
+    <div class="ring ring-inner"></div>
+    <div class="logo-core">
+      <img src="https://i.postimg.cc/sXwznX8k/cropped-circle-image.png" alt="LORD ZORO" />
+    </div>
+  </div>
+
+  <h1 class="hero-brand">LORD ZORO <span class="dot">.</span></h1>
+  <p class="hero-tagline">OFFICIAL CREATOR</p>
+
+  <a href="https://t.me/LORD_X_ZORO" target="_blank" class="tg-btn" aria-label="Telegram">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+      <path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/>
+    </svg>
+  </a>
+
+  <h2 class="hero-title">Support Lord Zoro</h2>
+  <p class="hero-desc">Fuel the grind, power the streams &amp; keep the content alive.</p>
+</section>
+
+<section class="card step-card">
+  <h3 class="step-title">⚡ Choose Amount</h3>
+  <p class="step-desc">Tap any preset or enter a custom amount</p>
+
+  <div class="preset-grid">
+    <button class="preset" data-amount="50"><span class="r">₹</span><span class="n">50</span></button>
+    <button class="preset" data-amount="100"><span class="r">₹</span><span class="n">100</span></button>
+    <button class="preset" data-amount="250"><span class="r">₹</span><span class="n">250</span></button>
+    <button class="preset" data-amount="500"><span class="r">₹</span><span class="n">500</span></button>
+    <button class="preset" data-amount="1000"><span class="r">₹</span><span class="n">1000</span></button>
+  </div>
+
+  <div class="custom-box">
+    <div class="custom-head">
+      <span class="rupee">₹</span>
+      <span class="custom-label">OR ENTER CUSTOM AMOUNT</span>
+      <span class="range-hint">₹1 – ₹1,00,000</span>
+    </div>
+    <div class="custom-input-wrap">
+      <span class="rupee-big">₹</span>
+      <input type="number" id="customAmount" placeholder="e.g. 250, 750, 1500..." min="1" max="100000" />
+    </div>
+  </div>
+</section>
+
+<section class="card step-card">
+  <h3 class="step-title">Payment &amp; Receipt Confirmation</h3>
+  <p class="step-desc">Pay securely via Razorpay (UPI, Google Pay, PhonePe, Cards, NetBanking).</p>
+
+  <label class="field-label">YOUR NAME / GAMERTAG <span class="req">*</span></label>
+  <input type="text" id="supporterName" class="input" placeholder="Enter your name" />
+
+  <label class="field-label">CONTRIBUTION AMOUNT (₹)</label>
+  <div class="amount-display">
+    <span id="displayAmount">₹0</span>
+    <span class="select-hint" id="amountHint">SELECT AMOUNT</span>
+  </div>
+
+  <label class="field-label">PAYMENT GATEWAY</label>
+  <div class="gateway-row">
+    <span class="shield">🛡</span>
+    <span class="gateway-text">Razorpay (All UPI &amp; Cards)</span>
+  </div>
+
+  <label class="field-label">NOTE / MESSAGE FOR CREATOR (OPTIONAL)</label>
+  <textarea id="note" class="input textarea" placeholder="Message for LORD ZORO..."></textarea>
+
+  <button id="payBtn" class="cta-btn" disabled>Proceed to Pay</button>
+</section>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="terms.html">Terms</a> •
+    <a href="privacy.html">Privacy</a> •
+    <a href="refund.html">Refund</a> •
+    <a href="https://t.me/LORD_X_ZORO" target="_blank">Contact</a>
+  </div>
+  <p class="copyright">© 2026 LORD ZORO. All rights reserved.</p>
+</footer>
